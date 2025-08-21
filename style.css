@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&family=TikTok+Sans:opsz,wght@12..36,300..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --heading-font: "TikTok Sans", sans-serif;
+    --second-font: "Winky Rough", sans-serif;
+    --para-font: "My Soul", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/Picsart_25-07-15_16-32-04-610.jpg);
+    background-size: cover;
+}
+
+.headings {
+    height: 84px;
+}
+
+.headings .head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 32px;
+}
+
+.headings .head h1 {
+    font-family: var(--heading-font);
+    font-size: 38px;
+}
+
+.headings .bghead {
+    background-color: #fff;
+    opacity: 0.3;
+    width: 100%;
+    height: 84px;
+    position: absolute;
+    top: 0px;
+    filter: blur(8px);
+}
+
+.headings>* {
+    color: wheat;
+}
+
+.image {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    width: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 4px solid black;
+}
+
+.common {
+    padding: 8px 30px;
+}
+
+.common h2 {
+    color: white;
+    font-family: var(--second-font);
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.about p {
+    padding: 8px;
+    font-family: var(--para-font);
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.skills {
+    padding: 14px 30px;
+}
+
+.skills ul {
+    padding: 8px;
+}
+
+.skills ul li {
+    list-style: none;
+    font-family: var(--heading-font);
+    font-size: 20px;
+    color: white;
+}
+
+.contact .para{
+    padding: 8px;
+}
+
+.contact .para p{
+    list-style: none;
+    font-family: var(--heading-font);
+    font-size: 20px;
+    color: white;
+}
+
+.contact .para p a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact .para p a :visited{
+    color: white;
+}
+
+.btn{
+    display: block;
+    margin: 14px auto;
+    padding: 4px 12px;
+}
